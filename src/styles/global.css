@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  --purple: #2d1b5e;
+  --purple-mid: #3d2680;
+  --gold: #f5a623;
+  --gold-dark: #d4891a;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
