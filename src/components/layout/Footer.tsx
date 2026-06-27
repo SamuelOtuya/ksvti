@@ -76,6 +76,9 @@ export default function Footer() {
               <li>
                 <a href="/contact">Contact Us</a>
               </li>
+              <li>
+                <a href="/gallery">Gallery</a>
+              </li>
             </ul>
           </div>
 
@@ -123,7 +126,7 @@ export default function Footer() {
                   className="text-[#f5a623] mt-1 flex-shrink-0"
                 />
                 <span className="text-white/60 text-sm">
-                  Kahawa Sukari Estate, Mizpa Plaza, 4th Floor
+                  Kahawa Sukari Estate, Mizpah Plaza, 4th Floor
                 </span>
               </div>
 

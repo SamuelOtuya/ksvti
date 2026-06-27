@@ -7,7 +7,22 @@
   --gold-dark: #d4891a;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
+}
+
+#nprogress .bar {
+  background: #f5a623 !important;
+  height: 3px !important;
+}
+
+#nprogress .peg {
+  box-shadow:
+    0 0 10px #f5a623,
+    0 0 5px #f5a623 !important;
 }

@@ -6,11 +6,16 @@ import logo from "../../assets/logo.jpeg";
 const navLinks = [
   { name: "Home", path: "/" },
   { name: "About Us", path: "/about" },
-  { name: "Courses", path: "/courses" },
+  { name: "Courses", path: "/programmes" },
   { name: "Admissions", path: "/admissions" },
   { name: "Student Life", path: "/student-life" },
+  { name: "Gallery", path: "/gallery" },
   { name: "News & Events", path: "/news" },
   { name: "Contact Us", path: "/contact" },
+  {
+    name: "Downloads",
+    path: "/downloads",
+  },
 ];
 
 export default function Navbar() {
@@ -53,7 +58,7 @@ export default function Navbar() {
           ))}
 
           <NavLink
-            to="/admissions"
+            to="/apply"
             className="ml-2 bg-[#f5a623] hover:bg-[#d4891a] text-white text-[12px] uppercase font-bold px-5 py-3 rounded"
           >
             Apply Now

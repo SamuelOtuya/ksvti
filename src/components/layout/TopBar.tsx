@@ -26,7 +26,7 @@ export default function TopBar() {
 
           <div className="flex items-center gap-2">
             <MapPin size={13} className="text-[#f5a623]" />
-            <span>Kahawa Sukari Estate, Mizpa Plaza, 4th Floor</span>
+            <span>Kahawa Sukari Estate, Mizpah Plaza, 4th Floor</span>
           </div>
         </div>
 
