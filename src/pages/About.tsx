@@ -131,7 +131,7 @@ export default function About() {
             <div className="h-[320px] bg-gray-300 flex items-center justify-center text-gray-500">
               <img
                 src={director2Img}
-                alt="Director One"
+                alt="Director Two"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -186,6 +186,34 @@ export default function About() {
               </div>
             );
           })}
+        </div>
+      </section>
+
+      <section className="py-20 px-6 lg:px-16 bg-[#f5f5f5]">
+        <div className="text-center mb-10">
+          <p className="text-[#f5a623] text-xs font-bold uppercase tracking-[3px] mb-2">
+            Find Us
+          </p>
+
+          <h2 className="text-[#2d1b5e] text-3xl lg:text-4xl font-black uppercase">
+            Our Location
+          </h2>
+
+          <div className="w-10 h-[3px] bg-[#f5a623] mx-auto mt-4 rounded" />
+        </div>
+
+        <div className="max-w-6xl mx-auto rounded-lg overflow-hidden shadow-lg border border-gray-200">
+          <iframe
+            title="Kahawa Sukari Vocational and Training Institute Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15412.314516413671!2d36.92997479819463!3d-1.190544880879863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3fa20ca76fb3%3A0x1f0589302d8290be!2sMizpah%20House!5e0!3m2!1sen!2ske!4v1782551130339!5m2!1sen!2ske"
+            width="100%"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="strict-origin-when-cross-origin"
+            className="w-full"
+          />
         </div>
       </section>
 

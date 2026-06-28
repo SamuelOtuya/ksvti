@@ -1,11 +1,18 @@
 // src/components/layout/Footer.tsx
 
 import { Phone, Mail, MapPin, Clock, Globe } from "lucide-react";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaYoutube,
+  FaTiktok,
+  FaInstagram,
+  FaXTwitter,
+} from "react-icons/fa6";
 
 export default function Footer() {
   return (
     <footer className="bg-[#2d1b5e]">
-      {/* Top Footer */}
       <div className="px-6 lg:px-16 py-16 border-b border-white/10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Brand */}
@@ -19,7 +26,6 @@ export default function Footer() {
                 <h3 className="text-white font-extrabold text-sm uppercase">
                   Kahawa Sukari
                 </h3>
-
                 <p className="text-white/60 text-[10px] uppercase">
                   Vocational & Training Institute
                 </p>
@@ -33,21 +39,24 @@ export default function Footer() {
             </p>
 
             <div className="flex gap-3 mt-5">
-              <div className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:text-[#f5a623] cursor-pointer">
-                f
-              </div>
-
-              <div className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:text-[#f5a623] cursor-pointer">
-                in
-              </div>
-
-              <div className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:text-[#f5a623] cursor-pointer">
-                x
-              </div>
-
-              <div className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:text-[#f5a623] cursor-pointer">
-                yt
-              </div>
+              <a href="#" className="social-icon">
+                <FaFacebookF size={14} />
+              </a>
+              <a href="#" className="social-icon">
+                <FaInstagram size={14} />
+              </a>
+              <a href="#" className="social-icon">
+                <FaLinkedinIn size={14} />
+              </a>
+              <a href="#" className="social-icon">
+                <FaXTwitter size={14} />
+              </a>
+              <a href="#" className="social-icon">
+                <FaTiktok size={14} />
+              </a>
+              <a href="#" className="social-icon">
+                <FaYoutube size={14} />
+              </a>
             </div>
           </div>
 
@@ -59,25 +68,39 @@ export default function Footer() {
 
             <ul className="space-y-3 text-sm text-white/60">
               <li>
-                <a href="/">Home</a>
+                <a href="/" className="hover:text-[#f5a623]">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="/about">About Us</a>
+                <a href="/about" className="hover:text-[#f5a623]">
+                  About Us
+                </a>
               </li>
               <li>
-                <a href="/courses">Courses</a>
+                <a href="/courses" className="hover:text-[#f5a623]">
+                  Courses
+                </a>
               </li>
               <li>
-                <a href="/student-life">Student Life</a>
+                <a href="/student-life" className="hover:text-[#f5a623]">
+                  Student Life
+                </a>
               </li>
               <li>
-                <a href="/news">News & Events</a>
+                <a href="/news" className="hover:text-[#f5a623]">
+                  News & Events
+                </a>
               </li>
               <li>
-                <a href="/contact">Contact Us</a>
+                <a href="/contact" className="hover:text-[#f5a623]">
+                  Contact Us
+                </a>
               </li>
               <li>
-                <a href="/gallery">Gallery</a>
+                <a href="/gallery" className="hover:text-[#f5a623]">
+                  Gallery
+                </a>
               </li>
             </ul>
           </div>
@@ -156,16 +179,24 @@ export default function Footer() {
               Location
             </h4>
 
-            <div className="h-32 border border-dashed border-white/20 rounded-md flex items-center justify-center text-white/30 text-xs">
-              Google Map
+            <div className="h-40 rounded-md overflow-hidden border border-white/10 shadow-md">
+              <iframe
+                title="KSVTI Location Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15412.314516413671!2d36.92997479819463!3d-1.190544880879863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3fa20ca76fb3%3A0x1f0589302d8290be!2sMizpah%20House!5e0!3m2!1sen!2ske!4v1782551130339!5m2!1sen!2ske"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="strict-origin-when-cross-origin"
+              />
             </div>
           </div>
         </div>
       </div>
 
-      {/* Bottom Footer */}
       <div className="px-6 lg:px-16 py-5 flex flex-col lg:flex-row gap-3 justify-between items-center">
-        <p className="text-white/40 text-xs">
+        <p className="text-white/40 text-xs text-center lg:text-left">
           © 2026 Kahawa Sukari Vocational & Training Institute. All Rights
           Reserved.
         </p>

@@ -1,6 +1,6 @@
 import { Mail, MapPin, Phone } from "lucide-react";
 import { FaFacebookF, FaLinkedinIn, FaTiktok, FaYoutube } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 
 export default function TopBar() {
   return (
@@ -33,7 +33,14 @@ export default function TopBar() {
         {/* Right Side */}
         <div className="flex items-center gap-4">
           <a
-            href="#"
+            href="https://lite.tiktok.com/t/ZS96yyvtKdxAq-UXWVu/"
+            className="text-gray-300 hover:text-[#f5a623] transition no-underline"
+          >
+            <FaTiktok size={14} />
+          </a>
+
+          <a
+            href="https://www.facebook.com/kahawasukarivti/"
             className="text-gray-300 hover:text-[#f5a623] transition no-underline"
           >
             <FaFacebookF size={14} />
@@ -57,14 +64,13 @@ export default function TopBar() {
             href="#"
             className="text-gray-300 hover:text-[#f5a623] transition no-underline"
           >
-            <FaTiktok size={14} />
+            <FaYoutube size={14} />
           </a>
-
           <a
             href="#"
             className="text-gray-300 hover:text-[#f5a623] transition no-underline"
           >
-            <FaYoutube size={14} />
+            <FaInstagram size={14} />
           </a>
         </div>
       </div>
