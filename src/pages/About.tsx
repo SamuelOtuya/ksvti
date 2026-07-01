@@ -2,6 +2,7 @@ import PageHeader from "../components/common/PageHeader";
 import { Award, BookOpenCheck, HeartHandshake, Target } from "lucide-react";
 import director1Img from "../assets/dir1.jpg";
 import director2Img from "../assets/dir2.jpg";
+import schoolImage from "../assets/images/aboutus.jpg";
 
 const values = [
   {
@@ -36,8 +37,12 @@ export default function About() {
 
       <section className="py-20 px-6 lg:px-16 bg-white">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
-          <div className="h-[380px] rounded-lg bg-gray-200 flex items-center justify-center text-gray-400">
-            School Image
+          <div className="h-[380px] rounded-lg overflow-hidden shadow-lg">
+            <img
+              src={schoolImage}
+              alt="KSVTI campus building"
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <div>
@@ -114,7 +119,7 @@ export default function About() {
 
             <div className="p-7">
               <h3 className="text-[#2d1b5e] text-xl font-black uppercase mb-1">
-                Director Name
+                Grace Maina
               </h3>
 
               <p className="text-[#f5a623] font-bold text-sm mb-4">Director</p>
@@ -138,7 +143,7 @@ export default function About() {
 
             <div className="p-7">
               <h3 className="text-[#2d1b5e] text-xl font-black uppercase mb-1">
-                Director Name
+                Julia Mburu
               </h3>
 
               <p className="text-[#f5a623] font-bold text-sm mb-4">Director</p>

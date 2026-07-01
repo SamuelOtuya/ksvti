@@ -1,6 +1,6 @@
 // src/components/layout/Footer.tsx
 
-import { Phone, Mail, MapPin, Clock, Globe } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Globe, ExternalLink } from "lucide-react";
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -39,23 +39,38 @@ export default function Footer() {
             </p>
 
             <div className="flex gap-3 mt-5">
-              <a href="#" className="social-icon">
-                <FaFacebookF size={14} />
+              <a
+                href="https://www.facebook.com/kahawasukarivti/"
+                className="social-icon"
+              >
+                <FaFacebookF size={14} color="white" />
               </a>
-              <a href="#" className="social-icon">
-                <FaInstagram size={14} />
+              <a
+                href="https://www.instagram.com/kahawasukarivti/"
+                className="social-icon"
+              >
+                <FaInstagram size={14} color="white" />
               </a>
-              <a href="#" className="social-icon">
-                <FaLinkedinIn size={14} />
+              <a
+                href="https://www.linkedin.com/company/kahawasukarivti/"
+                className="social-icon"
+              >
+                <FaLinkedinIn size={14} color="white" />
               </a>
-              <a href="#" className="social-icon">
-                <FaXTwitter size={14} />
+              <a href="https://twitter.com/ksvti" className="social-icon">
+                <FaXTwitter size={14} color="white" />
               </a>
-              <a href="#" className="social-icon">
-                <FaTiktok size={14} />
+              <a
+                href="https://lite.tiktok.com/t/ZS96yyvtKdxAq-UXWVu/"
+                className="social-icon"
+              >
+                <FaTiktok size={14} color="white" />
               </a>
-              <a href="#" className="social-icon">
-                <FaYoutube size={14} />
+              <a
+                href="https://www.youtube.com/@kahawasukarivti"
+                className="social-icon"
+              >
+                <FaYoutube size={14} color="white" />
               </a>
             </div>
           </div>
@@ -138,9 +153,7 @@ export default function Footer() {
 
               <div className="flex gap-3">
                 <Mail size={16} className="text-[#f5a623] mt-1 flex-shrink-0" />
-                <span className="text-white/60 text-sm">
-                  kahawasukari.tvc@gmail.com
-                </span>
+                <span className="text-white/60 text-sm">info@ksvti.co.ke</span>
               </div>
 
               <div className="flex gap-3">
@@ -195,16 +208,29 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="px-6 lg:px-16 py-5 flex flex-col lg:flex-row gap-3 justify-between items-center">
-        <p className="text-white/40 text-xs text-center lg:text-left">
-          © 2026 Kahawa Sukari Vocational & Training Institute. All Rights
-          Reserved.
-        </p>
+      <div className="border-t border-white/10 px-6 py-5 lg:px-16">
+        <div className="flex flex-col items-center justify-between gap-4 lg:flex-row">
+          <p className="text-center text-xs text-white/40 lg:text-left">
+            © 2026 Kahawa Sukari Vocational & Training Institute. All Rights
+            Reserved.
+          </p>
 
-        <div className="flex gap-3 text-white/40 text-xs">
-          <span>TVET REGISTERED</span>
-          <span>|</span>
-          <span>MINISTRY OF EDUCATION APPROVED</span>
+          <div className="flex flex-wrap items-center justify-center gap-3 text-xs text-white/40">
+            <span>TVET REGISTERED</span>
+            <span>|</span>
+            <span>MINISTRY OF EDUCATION APPROVED</span>
+          </div>
+
+          <a
+            href="https://wa.me/254796577415?text=Hello%20Dev%20Sam,%20I%20would%20like%20to%20inquire%20about%20website%20design%20and%20development."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-xs text-white/40 transition-all duration-300 hover:text-[#f5a623]"
+          >
+            Designed &amp; Developed by{" "}
+            <span className="font-bold text-[#f5a623]">Dev Sam</span>
+            <ExternalLink size={13} />
+          </a>
         </div>
       </div>
     </footer>

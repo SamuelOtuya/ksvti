@@ -21,7 +21,7 @@ export default function TopBar() {
             className="flex items-center gap-2 hover:text-[#f5a623] transition"
           >
             <Mail size={13} />
-            kahawasukari.tvc@gmail.com
+            info@ksvti.co.ke
           </a>
 
           <div className="flex items-center gap-2">
@@ -47,27 +47,27 @@ export default function TopBar() {
           </a>
 
           <a
-            href="#"
+            href="https://www.linkedin.com/company/kahawasukarivti/"
             className="text-gray-300 hover:text-[#f5a623] transition no-underline"
           >
             <FaLinkedinIn size={14} />
           </a>
 
           <a
-            href="#"
+            href="https://twitter.com/ksvti"
             className="text-gray-300 hover:text-[#f5a623] transition no-underline"
           >
             <FaXTwitter size={14} />
           </a>
 
           <a
-            href="#"
+            href="https://www.youtube.com/@kahawasukarivti"
             className="text-gray-300 hover:text-[#f5a623] transition no-underline"
           >
             <FaYoutube size={14} />
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/kahawasukarivti?igsh=MWJtMnJ0OGZqa2xteQ=="
             className="text-gray-300 hover:text-[#f5a623] transition no-underline"
           >
             <FaInstagram size={14} />

@@ -1,12 +1,17 @@
-import { ImageIcon } from "lucide-react";
+import heroImage from "../../assets/images/about-preview.jpg";
 
 export default function AboutPreview() {
   return (
     <section className="bg-[#f5f5f5] py-20 px-6 lg:px-16">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
-        <div className="h-[360px] bg-gray-300 rounded-md flex flex-col items-center justify-center text-gray-500 text-sm">
-          <ImageIcon size={42} className="mb-3 opacity-50" />
-          600 × 400
+        <div className="h-[360px]  rounded-md flex flex-col items-center justify-center text-gray-500 text-sm">
+          <img
+            src={heroImage}
+            alt="Description of image"
+            width={600}
+            height={400}
+            className="mb-3 opacity-50"
+          />
         </div>
 
         <div>

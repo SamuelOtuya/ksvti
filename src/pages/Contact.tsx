@@ -13,8 +13,8 @@ const contactCards = [
   {
     icon: Mail,
     title: "Email Us",
-    text: "kahawasukari.tvc@gmail.com",
-    link: "mailto:kahawasukari.tvc@gmail.com",
+    text: "info@ksvti.co.ke",
+    link: "mailto:info@ksvti.co.ke",
   },
   {
     icon: MessageCircle,
@@ -240,9 +240,13 @@ export default function Contact() {
           </div>
 
           <div className="overflow-hidden rounded-lg bg-white shadow-md">
-            <div className="flex h-[420px] items-center justify-center bg-gray-200 text-gray-500">
-              Google Map Here
-            </div>
+            <iframe
+              title="Kahawa Sukari Vocational & Training Institute Location"
+              src="https://www.google.com/maps?q=Mizpah%20Plaza%20Kahawa%20Sukari%20opposite%20Quickmart%20Supermarket&output=embed"
+              className="h-[420px] w-full border-0"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
 
             <div className="p-7">
               <div className="flex items-start gap-4">

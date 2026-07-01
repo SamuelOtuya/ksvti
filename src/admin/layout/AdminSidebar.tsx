@@ -10,6 +10,7 @@ import {
   Mail,
   Newspaper,
 } from "lucide-react";
+import { supabase } from "../../services/supabase";
 
 const adminLinks = [
   { name: "Dashboard", path: "/admin/dashboard", icon: LayoutDashboard },
@@ -24,8 +25,8 @@ const adminLinks = [
 export default function AdminSidebar() {
   const navigate = useNavigate();
 
-  const handleLogout = () => {
-    localStorage.removeItem("ksvti_admin");
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
     navigate("/admin/login", { replace: true });
   };
 
