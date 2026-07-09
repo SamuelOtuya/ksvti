@@ -3,6 +3,7 @@ import { Camera, Trophy, Users, Wrench } from "lucide-react";
 import { useEffect, useState } from "react";
 import ImageGallery from "../components/common/ImageGallery";
 import { supabase } from "../services/supabase";
+import studentLife from "../assets/images/studentlife.jpeg";
 
 const activities = [
   {
@@ -69,7 +70,11 @@ export default function StudentLife() {
       <section className="py-20 px-6 lg:px-16">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <div className="h-[380px] rounded-lg bg-gray-200 flex items-center justify-center">
-            Student Life Image
+            <img
+              src={studentLife}
+              alt="KSVTI campus building"
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <div>

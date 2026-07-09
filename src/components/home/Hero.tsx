@@ -82,14 +82,14 @@ export default function Hero() {
 
                   <div className="flex flex-wrap gap-4">
                     <a
-                      href="#"
+                      href="/apply"
                       className="bg-[#f5a623] hover:bg-[#d4891a] text-white px-8 py-4 rounded font-bold"
                     >
                       Apply Now →
                     </a>
 
                     <a
-                      href="#"
+                      href="/courses"
                       className="border-2 border-white/60 hover:border-white text-white px-8 py-4 rounded font-bold"
                     >
                       Explore Courses

@@ -181,7 +181,7 @@ export default function Footer() {
                   size={16}
                   className="text-[#f5a623] mt-1 flex-shrink-0"
                 />
-                <span className="text-white/60 text-sm">www.ksvti.ac.ke</span>
+                <span className="text-white/60 text-sm">www.ksvti.co.ke</span>
               </div>
             </div>
           </div>

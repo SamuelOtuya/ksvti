@@ -40,7 +40,7 @@ export default function Navbar() {
           </div>
         </NavLink>
 
-        <div className="hidden lg:flex items-center gap-1">
+        <div className="hidden lg:flex items-center gap-0.5">
           {navLinks.map((link) => (
             <NavLink
               key={link.path}

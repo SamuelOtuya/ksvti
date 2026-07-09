@@ -2,7 +2,7 @@ import PageHeader from "../components/common/PageHeader";
 import { Award, BookOpenCheck, HeartHandshake, Target } from "lucide-react";
 import director1Img from "../assets/dir1.jpg";
 import director2Img from "../assets/dir2.jpg";
-import schoolImage from "../assets/images/aboutus.jpg";
+import schoolImage from "../assets/images/aboutksvti.jpeg";
 
 const values = [
   {
