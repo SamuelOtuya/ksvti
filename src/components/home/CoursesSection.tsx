@@ -108,7 +108,7 @@ export default function CoursesSection() {
 
       <div className="text-center mt-12">
         <Link
-          to="/programmes"
+          to="/courses"
           className="inline-block bg-[#2d1b5e] hover:bg-[#3d2680] text-white px-9 py-4 rounded text-sm font-bold no-underline"
         >
           View All Courses

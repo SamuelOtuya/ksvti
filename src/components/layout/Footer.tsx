@@ -319,11 +319,34 @@ export default function Footer() {
             </a>
           </div>
         </div>
+        <h4 className="text-center text-white font-bold uppercase tracking-wider text-sm justify-center">
+          Partners and Accreditation
+        </h4>
+        <div className="mt-6 flex flex-wrap justify-center gap-8 lg:gap-10">
+          {[
+            { src: "/partners/icm.png", alt: "ICM" },
+            { src: "/partners/nita.png", alt: "NITA" },
+            { src: "/partners/tvet.jpg", alt: "TVETA" },
+            { src: "/partners/knec.jpg", alt: "CIDDAC" },
+            { src: "/partners/moe.jpg", alt: "Ministry of Education" },
+          ].map((partner) => (
+            <div
+              key={partner.alt}
+              className="flex h-14 w-20 items-center justify-center"
+            >
+              <img
+                src={partner.src}
+                alt={partner.alt}
+                className="max-h-10 max-w-full object-contain opacity-80 transition duration-300 hover:scale-105 hover:opacity-100"
+              />
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* Partners and Accreditation */}
       {/* Partners */}
-      <div className="border-t border-white/10 px-6 lg:px-16 py-8">
+      {/* <div className="border-t border-white/10 px-6 lg:px-16 py-8">
         <h4 className="text-center text-white font-bold uppercase tracking-wider text-sm">
           Partners and Accreditation
         </h4>
@@ -348,7 +371,7 @@ export default function Footer() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Bottom Footer */}
       {/* Bottom Footer */}
