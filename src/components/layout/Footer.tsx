@@ -11,34 +11,6 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 
-const partnerLogos = [
-  {
-    name: "ICM",
-    image: "/partners/icm.png",
-    link: "#",
-  },
-  {
-    name: "NITA",
-    image: "/partners/nita.png",
-    link: "#",
-  },
-  {
-    name: "TVETA",
-    image: "/partners/tvet.jpg",
-    link: "#",
-  },
-  {
-    name: "Ministry of Education",
-    image: "/partners/moe.jpg",
-    link: "#",
-  },
-  {
-    name: "CDACC",
-    image: "/partners/ciddac.png",
-    link: "#",
-  },
-];
-
 export default function Footer() {
   return (
     <footer className="bg-[#2d1b5e]">
@@ -324,6 +296,7 @@ export default function Footer() {
         </h4>
         <div className="mt-6 flex flex-wrap justify-center gap-8 lg:gap-10">
           {[
+            { src: "/partners/pfc.jpg", alt: "PFC" },
             { src: "/partners/icm.png", alt: "ICM" },
             { src: "/partners/nita.png", alt: "NITA" },
             { src: "/partners/tvet.jpg", alt: "TVETA" },
