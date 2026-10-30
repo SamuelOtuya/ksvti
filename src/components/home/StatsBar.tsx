@@ -3,7 +3,7 @@ import { GraduationCap, BookOpen, Smile, Award } from "lucide-react";
 const stats = [
   {
     icon: GraduationCap,
-    value: "500+",
+    value: "200+",
     label: "Graduates",
   },
   {
